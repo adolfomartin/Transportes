@@ -17,6 +17,13 @@ public class NewClass {
         this.string = string;
     }
 
+    public NewClass(String string, String string2) {
+        this.string = string;
+        this.string2 = string2;
+    }
+    
+    
+
     /**
      * Get the value of string
      *
@@ -33,6 +40,26 @@ public class NewClass {
      */
     public void setString(String string) {
         this.string = string;
+    }
+
+        private String string2;
+
+    /**
+     * Get the value of string2
+     *
+     * @return the value of string2
+     */
+    public String getString2() {
+        return string2;
+    }
+
+    /**
+     * Set the value of string2
+     *
+     * @param string2 new value of string2
+     */
+    public void setString2(String string2) {
+        this.string2 = string2;
     }
 
 }
